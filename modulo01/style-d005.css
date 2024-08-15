@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Moderustic:wght@300..800&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('fonts-d010/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+:root {
+    --branco: white;
+    --preto: black;
+    --azul-escuro: #002F6C;
+    --azul-claro: #2E78D9;
+    --cinza-claro: #486284;
+    --cinza: #3F4B59;
+    --cinza-escuro: #2D2F33;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+    --fonte-subtitulo: 'Moderustic', normal;
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza-claro);
+    font-family: (--fonte-padrao);
+    color: var(--branco);
+}
+
+header {
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    background-color: var(--cinza-escuro);
+    color: var(--cinza-claro);
+    margin: 0px;
+    font-size: 2em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.623);
+    border-radius: 0px 0px 20px 20px;
+    background-image: linear-gradient(to bottom, var(--cinza-claro), var(--cinza-escuro));
+    border-color: black;
+}
+
+body h2 {
+    color: var(--azul-escuro);
+    padding: 5px;
+    margin-bottom: 40px;
+    font-family: var(--fonte-subtitulo);
+    font-weight: 800;
+    border-radius: 0px 0px 20px 20px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.301);
+    background-image: linear-gradient(to right, var(--cinza-claro), transparent);
+    border-color: black;
+}
+
+body img{
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    margin: 0px 0px 20px 20px;
+}
+
+main {
+    margin: 0px 20px 20px 20px;
+    align-self: center;
+    padding: 0px 20px;
+    background-color: var(--azul-escuro);
+    max-width: 900px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
+}
+
+main p {
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.2em;
+}
+
+main ul {
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--cinza-escuro);
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 1.2em;
+    background-image: linear-gradient(to top, var(--cinza-claro), transparent);
+    border-color: black;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer a:visited {
+    color: var(--branco);
+}
+
+#profile-pic {
+    transition: transform 0.3s ease;
+}
+
+#profile-pic:target {
+    transform: scale(1.2); 
+}
