@@ -1,9 +1,9 @@
 <div style="text-align: center;">
-  <img src="modulo01/images-d005/Foto_perfil.jpg" alt="Minha Foto de Perfil" width="200px" height="200px">
+  <img src="modulo01/images-d005/Foto_perfil_redonda.png" alt="Minha Foto de Perfil">
 </div>
 
 ## Sobre o Projeto
-Este repositório contém os exercícios desenvolvidos durante o curso de **HTML5 e CSS3** oferecido pelo [Curso em Vídeo](https://www.cursoemvideo.com/). O curso abrange fundamentos importantes do desenvolvimento web, utilizando as linguagens HTML e CSS.
+Este repositório contém os exercícios desenvolvidos durante o curso de **HTML5 e CSS3** oferecido pelo <a href="https://www.cursoemvideo.com/" target="_blank"><em>Curso em Vídeo</em> 🔗</a>. O curso abrange fundamentos importantes do desenvolvimento web, utilizando as linguagens HTML e CSS.
 
 ### 📁 Estrutura do Projeto
 Os exercícios estão organizados em diretórios que representam os módulos do curso. Cada exercício explora diferentes aspectos e técnicas do desenvolvimento front-end, desde a criação de estruturas básicas até a estilização avançada.
