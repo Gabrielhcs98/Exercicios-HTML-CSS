@@ -77,8 +77,12 @@ body h2 {
         font-size: 1.6em;
     }
 
+    main ul {
+        padding-left: 20px;
+    }
+
     footer {
-        font-size: 0.9em;
+        font-size: 12px;
     }
 }
 
