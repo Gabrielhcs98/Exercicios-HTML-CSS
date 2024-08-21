@@ -69,8 +69,13 @@ body h2 {
 
 @media (max-width: 500px) {
 
-    body {
-        font-size: 14px;
+    #profile-pic{
+        width: 100px;
+        height: 100px;
+    }
+
+    main {
+        font-size: 13px;
     }
 
     header {
@@ -79,10 +84,6 @@ body h2 {
 
     main ul {
         padding-left: 20px;
-    }
-
-    footer {
-        font-size: 12px;
     }
 }
 
