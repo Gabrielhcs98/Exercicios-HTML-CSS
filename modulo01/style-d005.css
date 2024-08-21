@@ -10,81 +10,72 @@
     font-weight: normal;
 }
 
-html, body {
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-}
-
 :root {
     --branco: white;
     --preto: black;
     --azul-escuro: #002F6C;
     --azul-claro: #2E78D9;
-    --cinza-claro: #486284;
+    --cinza-claro: #486284a9;
     --cinza: #3F4B59;
     --cinza-escuro: #2D2F33;
-
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'Android', cursive;
     --fonte-subtitulo: 'Moderustic', normal;
 }
 
-.wrapper {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
 body {
     display: flex;
+    margin: 0px;
     flex-direction: column;
-    background-color: var(--cinza-claro);
+    background-color: #D9D9D9;
+    background-image: url('images-d005/papel_de_parede_texturado.jpg');
     font-family: (--fonte-padrao);
     color: var(--branco);
+    background-attachment: fixed;
+    min-width: 500px;
 }
 
 header {
     text-align: center;
     font-family: var(--fonte-destaque);
     background-color: var(--cinza-escuro);
-    color: var(--cinza-claro);
     margin: 0px;
     font-size: 2em;
-    text-shadow: 0px -1px 3px rgba(0, 0, 0, 0.623);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.623);
     border-radius: 0px 0px 20px 20px;
     background-image: linear-gradient(to bottom, var(--cinza-claro), var(--cinza-escuro));
     border-color: black;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.623);
 }
 
 body h2 {
     color: var(--azul-escuro);
     padding: 5px;
-    margin-bottom: 40px;
     font-family: var(--fonte-subtitulo);
     font-weight: 800;
     border-radius: 0px 0px 20px 20px;
-    text-shadow: -1px 0px 0px rgba(255, 255, 255, 0.220);
-    background-image: linear-gradient(to right, var(--cinza-claro), transparent);
+    text-shadow: -1px 0px 0px rgba(0, 0, 0, 0.22);
+    background-image: linear-gradient(to right, #D9D9D9, transparent);
     border-color: black;
     text-indent: 5px;
 }
 
-body img{
+#profile-pic{
     border-radius: 50%;
     box-shadow: 2px 2px 2px rgb(0, 0, 0);
     margin: 0px 0px 20px 20px;
 }
 
 main {
-    margin: 0px 20px 20px 20px;
+    margin: 0px 40px 40px 40px;
     align-self: center;
     padding: 0px 20px;
     background-color: var(--azul-escuro);
     max-width: 900px;
     border-radius: 0px 0px 20px 20px;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.342);
+    max-width: 1000px;
 }
 
 #div-text {
@@ -93,16 +84,23 @@ main {
     text-indent: 30px;
     font-size: 1.2em;
     background-color: var(--cinza-claro);
-    color: var(--branco);
+    color: #EBEBEB;
     padding: 20px;
     border-radius: 0px 20px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.534);
     font-weight: 400;
-    margin-top: 20px;
 }
 
 main ul {
     font-size: 1.2em;
+}
+
+ul img {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-bottom: -5px;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 footer {
@@ -110,24 +108,17 @@ footer {
     background-color: var(--cinza-escuro);
     padding: 20px;
     text-decoration: none;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 20px 20px 0px 0px;
     font-size: 1.2em;
     background-image: linear-gradient(to top, var(--cinza-claro), transparent);
     border-color: black;
+    box-shadow: 0px -2px 1px rgba(0, 0, 0, 0.623);
 }
 
 footer a:hover {
-    color: white;
+    background-image: url(images-d005/papel_de_parede_texturado.jpg);
 }
 
 footer a:visited {
-    color: var(--branco);
-}
-
-#profile-pic {
-    transition: transform 0.3s ease;
-}
-
-#profile-pic:target {
-    transform: scale(1.2); 
+    color: #EBEBEB;
 }
