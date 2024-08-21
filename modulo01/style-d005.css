@@ -25,15 +25,15 @@
 }
 
 body {
+    width: 100%;
     display: flex;
-    margin: 0px;
     flex-direction: column;
+    margin: 0px;
     background-color: #D9D9D9;
     background-image: url('images-d005/papel_de_parede_texturado.jpg');
     font-family: (--fonte-padrao);
     color: var(--branco);
     background-attachment: fixed;
-    min-width: 500px;
 }
 
 header {
@@ -67,15 +67,28 @@ body h2 {
     margin: 0px 0px 20px 20px;
 }
 
+@media (max-width: 500px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        font-size: 1.6em;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
 main {
     margin: 0px 40px 40px 40px;
     align-self: center;
     padding: 0px 20px;
     background-color: var(--azul-escuro);
-    max-width: 900px;
     border-radius: 0px 0px 20px 20px;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.342);
-    max-width: 1000px;
 }
 
 #div-text {
@@ -106,7 +119,7 @@ ul img {
 footer {
     text-align: center;
     background-color: var(--cinza-escuro);
-    padding: 20px;
+    padding: 30px;
     text-decoration: none;
     border-radius: 20px 20px 0px 0px;
     font-size: 1.2em;
