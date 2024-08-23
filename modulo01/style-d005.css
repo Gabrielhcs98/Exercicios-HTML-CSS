@@ -61,6 +61,8 @@ body h2 {
 }
 
 #profile-pic{
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     box-shadow: 2px 2px 2px rgb(0, 0, 0);
     margin: 0px 0px 20px 20px;
@@ -143,7 +145,10 @@ footer {
 }
 
 footer a:hover {
-    background-image: url(images-d005/papel_de_parede_texturado.jpg);
+    text-decoration: none;
+    background-color: var(--azul-escuro);
+    border-radius: 20px;
+    padding: 0px 5px;
 }
 
 footer a:visited {
