@@ -1,0 +1,42 @@
+body{
+    background-image: url(../modulo01/images-d005/background-geometrico.jpg);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+td, th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+th{
+    background-color: slategray;
+    color: white;
+}
+
+.Títulos{
+    background-color: rgb(58, 66, 73);
+    position: sticky;
+    top: 0;
+    font-size: x-large;
+    color: white;
+}
+
+.Médias{
+    text-align: left;
+}
+
+.Áreas{
+    font-weight: bold;
+}
