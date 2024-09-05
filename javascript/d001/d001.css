@@ -1,11 +1,30 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-color: rgb(59, 130, 213);
+}
+
+header{
+    color: white;
+}
+
+main, section{
+    background-color: white;
+    width: 50vw;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.404);
+    margin-top: 50px;
 }
 
 input{
     padding: 15px;
     margin: 15px;
-    border-style: groove;
     border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input:active{
+    border-color: rgba(0, 0, 0, 0.200);
+    box-sizing: border-box;
 }
